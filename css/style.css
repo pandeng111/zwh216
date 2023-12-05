@@ -1,0 +1,124 @@
+*{
+	margin:0;
+	padding:0;
+}
+.header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 80%;
+	padding: 10px 10%;
+	background:rgb(85, 85, 0,0.4);
+}
+.loge h1{
+	color:yellow;
+	letter-spacing: 5px;
+	font-size: 30px;
+}
+.nav a{
+	text-decoration: none;
+	color: #ff0000;
+	font-size: 19px;
+	margin-left: 20px;
+}
+.banner{
+	width: 100%;
+	height: 60vh;
+}
+.banner img{
+	width: 100%;
+	height: 100%;
+	object-fit: color;
+}
+.title h3{
+	text-align:center;
+	margin-top: 30px;
+	font-size: 40px;
+	color: #555;
+	letter-spacing: 5px;
+}
+#about{
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	margin:30px auto;
+}
+.about-img{
+	width: 45%;
+}
+.about-img img{
+	width: 100%;
+}
+.about-text{
+	width: 50%;
+}
+.about-img p{
+	line-height: 1.8;
+}
+#work ul{
+	display: flex;
+	justify-content: space-between;
+	width: 1200px;
+	margin:30px auto;
+}
+#work ul li{
+	list-style: none;
+	width: 24%;
+}
+#work ul li img{
+	width: 100%;
+	height: 200px;
+	border-radius: 8px;
+	object-fit: cover;
+}
+#work ul li p{
+	padding: 10px;
+	background:#ffaa00 ;
+}
+#like{
+	width: 1200px;
+	margin:30px auto;
+}
+#like span{
+	background: #f2f2f2;
+	padding: 5px 10px;
+}
+.contect{
+	width: 1200px;
+	margin:30px auto;
+}
+.contect input{
+	outline: none;
+	display: block;
+	width: 300px;
+	height: 35px;
+	padding-left: 10px;
+	margin-bottom: 20px;
+}
+.contect textarea{
+	outline: none;
+	padding: 10px;
+	width: 800px;
+}
+.contect button{
+	display: block;
+	width: 120px;
+	height: 30px;
+	margin-top: 30px;
+	color: #f2f2f2;
+	background: #55aa7f;
+	border: none;
+	
+}
+
+.footer{
+	text-align: center;
+	color: #ffffff;
+	background: #ff007f;
+	
+	padding: 15px 0px;
+	
+}
